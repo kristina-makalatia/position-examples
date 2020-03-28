@@ -1,0 +1,91 @@
+.logo img {
+	height: 100px;
+}
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+.navigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+.navigation-li {
+	display: inline-block;
+}
+body {
+	/*padding-top: 102px;*/
+}
+.header-wraper {
+	background-color: green;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+.wraper-p {
+	margin-top: 102px;
+}
+.sticky {
+	background-color: yellow;
+	position: sticky;
+	top: 102px;
+	left: 50px;
+	width:100px;
+	display: inline-block;
+}
+.box-wraper {
+	width: 600px;
+	height: 600px;
+	background-color: red;
+	position: relative;
+}
+.box:first-child{
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	position: absolute;
+	top:50px;
+	left:50px;
+	z-index: 11;
+}
+.box:nth-child(2){
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top:150px;
+	left: 150px;
+	z-index: 6;
+}
+.box:nth-child(3){
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	z-index: 5;
+}
+.box p {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+.text-absolute {
+	position: absolute;
+	bottom:0;
+	right: 0;
+	color: #fff;
+}
+.image-wraper {
+	position: relative;
+	width:546px;
+}
+.logo-absolute {
+	position: absolute;
+	height: 80px;
+	top:0;
+	right: 0;
+}
